@@ -1,0 +1,112 @@
+# django #
+*.log
+*.pot
+*.pyc
+__pycache__
+db.sqlite3
+media
+
+#backup files #
+*.bak 
+
+
+#se usando PyCharm#
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/dataSources/
+.idea/dictionaries
+.idea/**/dataSources.ids
+.idea/**/dataSources.xml
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dinamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/gradle.xml
+.idea/**/libraries
+*.iws /out/
+
+#python#
+*.py[cod]
+*$py.class
+
+#Distribution / packaging
+.Python build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manisfet
+*.spec
+
+#installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+#unit test
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+#jupter notebook
+.ipynb_checkpointes
+
+#pyenv
+.python-version
+
+#celery
+celerybeat-schedule.*
+
+# environments
+.env
+.venv
+env/
+venv/
+env.bak/
+venv.bak/
+#mkdocs documentation
+/site 
+#mypy
+.mypy-cache/
+
+#subline text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime=-workspace
+*.sublime-project
+
+
+#visual code
+.vscode/*
+!.vscode/settings.jon
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
+
+# adições extras
+*.pyc
+.DS_Store
+static/
+local_settings.py
+_local_settings.py
+
+#retornando
+!db.sqlite3
